@@ -1,0 +1,488 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	pyelliptic/arithmetic.py	/^A = 0$/;"	v
+ALPHABET	addresses.py	/^ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"$/;"	v
+APIAuthenticateClient	api.py	/^    def APIAuthenticateClient(self):$/;"	m	class:MySimpleXMLRPCRequestHandler
+APIError	api.py	/^class APIError(Exception):$/;"	c
+APPNAME	defaultKnownNodes.py	/^    APPNAME = "PyBitmessage"$/;"	v
+BN_num_bytes	pyelliptic/openssl.py	/^    def BN_num_bytes(self, x):$/;"	m	class:_OpenSSL
+Cipher	pyelliptic/cipher.py	/^class Cipher:$/;"	c
+CipherName	pyelliptic/openssl.py	/^class CipherName:$/;"	c
+CreatePacket	shared.py	/^def CreatePacket(command, payload=''):$/;"	f
+DonRenderer	qidenticon.py	/^class DonRenderer(IdenticonRendererBase):$/;"	c
+ECC	pyelliptic/ecc.py	/^class ECC:$/;"	c
+G	pyelliptic/arithmetic.py	/^G = (Gx,Gy)$/;"	v
+GeneralProxyError	socks/__init__.py	/^class GeneralProxyError(ProxyError): pass$/;"	c
+Gx	pyelliptic/arithmetic.py	/^Gx = 55066263022277343669578718895168534326250603453777594175500187360389116729240$/;"	v
+Gy	pyelliptic/arithmetic.py	/^Gy = 32670510020758816978083085130507043184471273380659243275938904335757337482424$/;"	v
+HTTPError	socks/__init__.py	/^class HTTPError(ProxyError): pass$/;"	c
+HandleAdd	api.py	/^    def HandleAdd(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleAddAddressBookEntry	api.py	/^    def HandleAddAddressBookEntry(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleAddSubscription	api.py	/^    def HandleAddSubscription(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleClientStatus	api.py	/^    def HandleClientStatus(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleCreateChan	api.py	/^    def HandleCreateChan(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleCreateDeterministicAddresses	api.py	/^    def HandleCreateDeterministicAddresses(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleCreateRandomAddress	api.py	/^    def HandleCreateRandomAddress(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleDecodeAddress	api.py	/^    def HandleDecodeAddress(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleDeleteAddress	api.py	/^    def HandleDeleteAddress(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleDeleteAddressBookEntry	api.py	/^    def HandleDeleteAddressBookEntry(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleDeleteSubscription	api.py	/^    def HandleDeleteSubscription(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleDisseminatePreEncryptedMsg	api.py	/^    def HandleDisseminatePreEncryptedMsg(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleDissimatePubKey	api.py	/^    def HandleDissimatePubKey(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetAllInboxMessageIds	api.py	/^    def HandleGetAllInboxMessageIds(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetAllInboxMessages	api.py	/^    def HandleGetAllInboxMessages(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetAllSentMessageIds	api.py	/^    def HandleGetAllSentMessageIds(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetAllSentMessages	api.py	/^    def HandleGetAllSentMessages(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetDeterministicAddress	api.py	/^    def HandleGetDeterministicAddress(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetInboxMessageById	api.py	/^    def HandleGetInboxMessageById(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetMessageDataByDestinationHash	api.py	/^    def HandleGetMessageDataByDestinationHash(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetSentMessageById	api.py	/^    def HandleGetSentMessageById(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetSentMessagesByAckData	api.py	/^    def HandleGetSentMessagesByAckData(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetSentMessagesByAddress	api.py	/^    def HandleGetSentMessagesByAddress(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleGetStatus	api.py	/^    def HandleGetStatus(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleHelloWorld	api.py	/^    def HandleHelloWorld(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleInboxMessagesByReceiver	api.py	/^    def HandleInboxMessagesByReceiver(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleJoinChan	api.py	/^    def HandleJoinChan(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleLeaveChan	api.py	/^    def HandleLeaveChan(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleListAddressBookEntries	api.py	/^    def HandleListAddressBookEntries(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleListAddresses	api.py	/^    def HandleListAddresses(self, method):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleSendBroadcast	api.py	/^    def HandleSendBroadcast(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleSendMessage	api.py	/^    def HandleSendMessage(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleTrashInboxMessage	api.py	/^    def HandleTrashInboxMessage(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleTrashMessage	api.py	/^    def HandleTrashMessage(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleTrashSentMessage	api.py	/^    def HandleTrashSentMessage(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+HandleTrashSentMessageByAckDAta	api.py	/^    def HandleTrashSentMessageByAckDAta(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+Header	shared.py	/^Header = Struct('!L12sL4s')$/;"	v
+IdenticonRendererBase	qidenticon.py	/^class IdenticonRendererBase(object):$/;"	c
+ListSubscriptions	api.py	/^    def ListSubscriptions(self, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+MIDDLE_PATCH_SET	qidenticon.py	/^    MIDDLE_PATCH_SET = [0, 4, 8, 15]$/;"	v	class:DonRenderer
+Main	bitmessagemain.py	/^class Main:$/;"	c
+MyECSubscriptionCryptorObjects	shared.py	/^MyECSubscriptionCryptorObjects = {}$/;"	v
+MySimpleXMLRPCRequestHandler	api.py	/^class MySimpleXMLRPCRequestHandler(SimpleXMLRPCRequestHandler):$/;"	c
+OSDistribution	sysinfo.py	/^    def OSDistribution(self):$/;"	m	class:SystemInfo
+OSType	sysinfo.py	/^    def OSType(self):$/;"	m	class:SystemInfo
+OSVersion	sysinfo.py	/^    def OSVersion(self):$/;"	m	class:SystemInfo
+OpenSSL	pyelliptic/openssl.py	/^    OpenSSL = _OpenSSL('libcrypto.so')$/;"	v	class:_OpenSSL
+OpenSSL	pyelliptic/openssl.py	/^OpenSSL = None$/;"	v
+P	pyelliptic/arithmetic.py	/^P = 2**256-2**32-2**9-2**8-2**7-2**6-2**4-1$/;"	v
+PATH_SET	qidenticon.py	/^    PATH_SET = [$/;"	v	class:DonRenderer
+PATH_SET	qidenticon.py	/^    PATH_SET = []$/;"	v	class:IdenticonRendererBase
+PROXY_TYPE_HTTP	socks/__init__.py	/^PROXY_TYPE_HTTP = 3$/;"	v
+PROXY_TYPE_SOCKS4	socks/__init__.py	/^PROXY_TYPE_SOCKS4 = 1$/;"	v
+PROXY_TYPE_SOCKS5	socks/__init__.py	/^PROXY_TYPE_SOCKS5 = 2$/;"	v
+Peer	shared.py	/^Peer = collections.namedtuple('Peer', ['host', 'port'])$/;"	v
+ProxyError	socks/__init__.py	/^class ProxyError(Exception): pass$/;"	c
+RPCError	namecoin.py	/^class RPCError (Exception):$/;"	c
+Socks4Error	socks/__init__.py	/^class Socks4Error(ProxyError): pass$/;"	c
+Socks5AuthError	socks/__init__.py	/^class Socks5AuthError(ProxyError): pass$/;"	c
+Socks5Error	socks/__init__.py	/^class Socks5Error(ProxyError): pass$/;"	c
+SqlBulkExecute	helper_sql.py	/^class SqlBulkExecute:$/;"	c
+SystemInfo	sysinfo.py	/^class SystemInfo:$/;"	c
+_OpenSSL	pyelliptic/openssl.py	/^class _OpenSSL:$/;"	c
+__all__	pyelliptic/__init__.py	/^__all__ = [$/;"	v
+__all__	qidenticon.py	/^__all__ = ['render_identicon', 'IdenticonRendererBase']$/;"	v
+__createInfoData__	class_communicationThread.py	/^    def __createInfoData__(self):$/;"	m	class:communicationThread	file:
+__createPacket__	class_communicationThread.py	/^    def __createPacket__(self):$/;"	m	class:communicationThread	file:
+__del__	pyelliptic/cipher.py	/^    def __del__(self):$/;"	m	class:Cipher	file:
+__del__	singleton.py	/^    def __del__(self):$/;"	m	class:singleinstance	file:
+__enter__	helper_sql.py	/^    def __enter__(self):$/;"	m	class:SqlBulkExecute	file:
+__exit__	helper_sql.py	/^    def __exit__(self, type, value, traceback):$/;"	m	class:SqlBulkExecute	file:
+__getInfoFromUname__	sysinfo.py	/^    def __getInfoFromUname__(self, info):$/;"	m	class:SystemInfo	file:
+__infoIndexInUname__	sysinfo.py	/^    __infoIndexInUname__ = {}$/;"	v	class:SystemInfo
+__init__	api.py	/^    def __init__(self, error_number, error_message):$/;"	m	class:APIError
+__init__	bitmessagemain.py	/^    def __init__(self):$/;"	m	class:singleAPI
+__init__	class_addressGenerator.py	/^    def __init__(self):$/;"	m	class:addressGenerator
+__init__	class_communicationThread.py	/^    def __init__(self):$/;"	m	class:communicationThread
+__init__	class_objectHashHolder.py	/^    def __init__(self, sendDataThreadMailbox):$/;"	m	class:objectHashHolder
+__init__	class_objectProcessor.py	/^    def __init__(self):$/;"	m	class:objectProcessor
+__init__	class_outgoingSynSender.py	/^    def __init__(self):$/;"	m	class:outgoingSynSender
+__init__	class_receiveDataThread.py	/^    def __init__(self):$/;"	m	class:receiveDataThread
+__init__	class_sendDataThread.py	/^    def __init__(self, sendDataThreadQueue):$/;"	m	class:sendDataThread
+__init__	class_singleCleaner.py	/^    def __init__(self):$/;"	m	class:singleCleaner
+__init__	class_singleListener.py	/^    def __init__(self):$/;"	m	class:singleListener
+__init__	class_singleWorker.py	/^    def __init__(self):$/;"	m	class:singleWorker
+__init__	class_sqlThread.py	/^    def __init__(self):$/;"	m	class:sqlThread
+__init__	namecoin.py	/^    def __init__ (self, data):$/;"	m	class:RPCError
+__init__	namecoin.py	/^    def __init__ (self, options = None):$/;"	m	class:namecoinConnection
+__init__	pyelliptic/cipher.py	/^    def __init__(self, key, iv, do, ciphername='aes-256-cbc'):$/;"	m	class:Cipher
+__init__	pyelliptic/ecc.py	/^    def __init__(self, pubkey=None, privkey=None, pubkey_x=None,$/;"	m	class:ECC
+__init__	pyelliptic/openssl.py	/^    def __init__(self, library):$/;"	m	class:_OpenSSL
+__init__	pyelliptic/openssl.py	/^    def __init__(self, name, pointer, blocksize):$/;"	m	class:CipherName
+__init__	qidenticon.py	/^    def __init__(self, code):$/;"	m	class:IdenticonRendererBase
+__init__	singleton.py	/^    def __init__(self, flavor_id=""):$/;"	m	class:singleinstance
+__init__	socks/__init__.py	/^    def __init__(self, family=socket.AF_INET, type=socket.SOCK_STREAM, proto=0, _sock=None):$/;"	m	class:socksocket
+__init__	sysinfo.py	/^    def __init__(self):$/;"	m	class:SystemInfo
+__negotiatehttp	socks/__init__.py	/^    def __negotiatehttp(self, destaddr, destport):$/;"	m	class:socksocket	file:
+__negotiatesocks4	socks/__init__.py	/^    def __negotiatesocks4(self,destaddr,destport):$/;"	m	class:socksocket	file:
+__negotiatesocks5	socks/__init__.py	/^    def __negotiatesocks5(self, destaddr, destport):$/;"	m	class:socksocket	file:
+__recvall	socks/__init__.py	/^    def __recvall(self, count):$/;"	m	class:socksocket	file:
+__sendPacket__	class_communicationThread.py	/^    def __sendPacket__(self, pkt):$/;"	m	class:communicationThread	file:
+__str__	api.py	/^    def __str__(self):$/;"	m	class:APIError	file:
+__str__	pyelliptic/openssl.py	/^    def __str__(self):$/;"	m	class:CipherName	file:
+__version__	pyelliptic/__init__.py	/^__version__ = '1.3'$/;"	v
+_checkAndShareBroadcastWithPeers	shared.py	/^def _checkAndShareBroadcastWithPeers(data):$/;"	f
+_checkAndShareGetpubkeyWithPeers	shared.py	/^def _checkAndShareGetpubkeyWithPeers(data):$/;"	f
+_checkAndShareMsgWithPeers	shared.py	/^def _checkAndShareMsgWithPeers(data):$/;"	f
+_checkAndSharePubkeyWithPeers	shared.py	/^def _checkAndSharePubkeyWithPeers(data):$/;"	f
+_checkAndShareUndefinedObjectWithPeers	shared.py	/^def _checkAndShareUndefinedObjectWithPeers(data):$/;"	f
+_checkIPv4Address	class_receiveDataThread.py	/^    def _checkIPv4Address(self, host, hostStandardFormat):$/;"	m	class:receiveDataThread
+_checkIPv6Address	class_receiveDataThread.py	/^    def _checkIPv6Address(self, host, hostStandardFormat):$/;"	m	class:receiveDataThread
+_createListenSocket	class_singleListener.py	/^    def _createListenSocket(self, family):$/;"	m	class:singleListener
+_decode	api.py	/^    def _decode(self, text, decode_type):$/;"	m	class:MySimpleXMLRPCRequestHandler
+_decode_privkey	pyelliptic/ecc.py	/^    def _decode_privkey(privkey):$/;"	m	class:ECC
+_decode_pubkey	pyelliptic/ecc.py	/^    def _decode_pubkey(pubkey):$/;"	m	class:ECC
+_defaultproxy	socks/__init__.py	/^_defaultproxy = None$/;"	v
+_dispatch	api.py	/^    def _dispatch(self, method, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+_doFastPoW	proofofwork.py	/^def _doFastPoW(target, initialHash):$/;"	f
+_doSafePoW	proofofwork.py	/^def _doSafePoW(target, initialHash):$/;"	f
+_equals_bytes	pyelliptic/hash.py	/^def _equals_bytes(a, b):$/;"	f
+_equals_str	pyelliptic/hash.py	/^def _equals_str(a, b):$/;"	f
+_fixWinsock	bitmessagemain.py	/^def _fixWinsock():$/;"	f
+_generalerrors	socks/__init__.py	/^_generalerrors = ("success",$/;"	v
+_generate	pyelliptic/ecc.py	/^    def _generate(self):$/;"	m	class:ECC
+_getPeer	class_outgoingSynSender.py	/^    def _getPeer(self):$/;"	m	class:outgoingSynSender
+_handle_request	api.py	/^    def _handle_request(self, method, params):$/;"	m	class:MySimpleXMLRPCRequestHandler
+_loadTrustedPeer	helper_startup.py	/^def _loadTrustedPeer():$/;"	f
+_orgsocket	socks/__init__.py	/^_orgsocket = socket.socket$/;"	v
+_pool_worker	proofofwork.py	/^def _pool_worker(nonce, initialHash, target, pool_size):$/;"	f
+_set_ciphers	pyelliptic/openssl.py	/^    def _set_ciphers(self):$/;"	m	class:_OpenSSL
+_set_curves	pyelliptic/openssl.py	/^    def _set_curves(self):$/;"	m	class:_OpenSSL
+_set_idle	proofofwork.py	/^def _set_idle():$/;"	f
+_set_keys	pyelliptic/ecc.py	/^    def _set_keys(self, pubkey_x, pubkey_y, privkey):$/;"	m	class:ECC
+_sleepForTimingAttackMitigation	class_receiveDataThread.py	/^    def _sleepForTimingAttackMitigation(self, sleepTime):$/;"	m	class:receiveDataThread
+_socks4errors	socks/__init__.py	/^_socks4errors = ("request granted",$/;"	v
+_socks5autherrors	socks/__init__.py	/^_socks5autherrors = ("succeeded",$/;"	v
+_socks5errors	socks/__init__.py	/^_socks5errors = ("succeeded",$/;"	v
+_verifyAddress	api.py	/^    def _verifyAddress(self, address):$/;"	m	class:MySimpleXMLRPCRequestHandler
+ackDataHasAVaildHeader	class_objectProcessor.py	/^    def ackDataHasAVaildHeader(self, ackData):$/;"	m	class:objectProcessor
+ackdataForWhichImWatching	shared.py	/^ackdataForWhichImWatching = {}$/;"	v
+add	pyelliptic/arithmetic.py	/^def add(p1,p2):$/;"	f
+addBMIfNotPresent	addresses.py	/^def addBMIfNotPresent(address):$/;"	f
+addDataPadding	helper_generic.py	/^def addDataPadding(data, desiredMsgLength = 12, paddingChar = '\\x00'):$/;"	f
+addMailingListNameToSubject	class_objectProcessor.py	/^    def addMailingListNameToSubject(self, subject, mailingListName):$/;"	m	class:objectProcessor
+addressGenerator	class_addressGenerator.py	/^class addressGenerator(threading.Thread):$/;"	c
+addressGeneratorQueue	shared.py	/^addressGeneratorQueue = Queue.Queue()$/;"	v
+addressVersionNumber	addresses.py	/^    addressVersionNumber = 2$/;"	v
+alreadyAttemptedConnectionsList	shared.py	/^alreadyAttemptedConnectionsList = {$/;"	v
+alreadyAttemptedConnectionsListLock	shared.py	/^alreadyAttemptedConnectionsListLock = threading.Lock()$/;"	v
+alreadyAttemptedConnectionsListResetTime	shared.py	/^alreadyAttemptedConnectionsListResetTime = int($/;"	v
+apiAddressGeneratorReturnQueue	shared.py	/^apiAddressGeneratorReturnQueue = Queue.Queue($/;"	v
+appdata	defaultKnownNodes.py	/^        appdata = path.expanduser(path.join("~", ".config\/" + APPNAME + "\/"))$/;"	v
+appdata	defaultKnownNodes.py	/^        appdata = path.join(NSSearchPathForDirectoriesInDomains(14, 1, True)[0], APPNAME) + '\/'$/;"	v
+appdata	defaultKnownNodes.py	/^        appdata = path.join(environ['APPDATA'], APPNAME) + '\\\\'$/;"	v
+appdata	shared.py	/^appdata = '' #holds the location of the application data storage directory$/;"	v
+assembleErrorMessage	shared.py	/^def assembleErrorMessage(fatal=0, banTime=0, inventoryVector='', errorText=''):$/;"	f
+assembleVersionMessage	shared.py	/^def assembleVersionMessage(remoteHost, remotePort, myStreamNumber):$/;"	f
+base10_add	pyelliptic/arithmetic.py	/^def base10_add(a,b):$/;"	f
+base10_double	pyelliptic/arithmetic.py	/^def base10_double(a):$/;"	f
+base10_multiply	pyelliptic/arithmetic.py	/^def base10_multiply(a,n):$/;"	f
+bin_to_b58check	pyelliptic/arithmetic.py	/^def bin_to_b58check(inp):$/;"	f
+broadcastSendersForWhichImWatching	shared.py	/^broadcastSendersForWhichImWatching = {}$/;"	v
+broadcastToSendDataQueues	shared.py	/^def broadcastToSendDataQueues(data):$/;"	f
+bufsize	namecoin.py	/^    bufsize = 4096$/;"	v	class:namecoinConnection
+calculateBitcoinAddressFromPubkey	helper_bitcoin.py	/^def calculateBitcoinAddressFromPubkey(pubkey):$/;"	f
+calculateInventoryHash	addresses.py	/^def calculateInventoryHash(data):$/;"	f
+calculateTestnetAddressFromPubkey	helper_bitcoin.py	/^def calculateTestnetAddressFromPubkey(pubkey):$/;"	f
+callRPC	namecoin.py	/^    def callRPC (self, method, params):$/;"	m	class:namecoinConnection
+changebase	pyelliptic/arithmetic.py	/^def changebase(string,frm,to,minlen=0):$/;"	f
+checkAndShareObjectWithPeers	shared.py	/^def checkAndShareObjectWithPeers(data):$/;"	f
+checkSensitiveFilePermissions	shared.py	/^def checkSensitiveFilePermissions(filename):$/;"	f
+check_curses	depends.py	/^def check_curses():$/;"	f
+check_dependencies	depends.py	/^def check_dependencies(verbose = False, optional = False):$/;"	f
+check_hashlib	depends.py	/^def check_hashlib():$/;"	f
+check_key	pyelliptic/ecc.py	/^    def check_key(self, privkey, pubkey):$/;"	m	class:ECC
+check_openssl	depends.py	/^def check_openssl():$/;"	f
+check_pyqt	depends.py	/^def check_pyqt():$/;"	f
+check_sqlite	depends.py	/^def check_sqlite():$/;"	f
+ciphering	pyelliptic/cipher.py	/^    def ciphering(self, input):$/;"	m	class:Cipher
+clientHasReceivedIncomingConnections	shared.py	/^clientHasReceivedIncomingConnections = False #used by API command clientStatus$/;"	v
+close	class_objectHashHolder.py	/^    def close(self):$/;"	m	class:objectHashHolder
+communicationThread	class_communicationThread.py	/^class communicationThread(threading.Thread):$/;"	c
+config	shared.py	/^config = ConfigParser.SafeConfigParser()$/;"	v
+configSection	namecoin.py	/^configSection = "bitmessagesettings"$/;"	v
+configureLogging	debug.py	/^def configureLogging():$/;"	f
+connect	socks/__init__.py	/^    def connect(self, destpair):$/;"	m	class:socksocket
+connectToStream	bitmessagemain.py	/^def connectToStream(streamNumber):$/;"	f
+connectedHostsList	shared.py	/^connectedHostsList = {} #List of hosts to which we are connected. Used to guarantee that the outgoingSynSender threads won't connect to the same remote node twice.$/;"	v
+connectionFullyEstablished	class_receiveDataThread.py	/^    def connectionFullyEstablished(self):$/;"	m	class:receiveDataThread
+convertIntToString	addresses.py	/^def convertIntToString(n):$/;"	f
+convertIntToString	helper_generic.py	/^def convertIntToString(n):$/;"	f
+convertStringToInt	helper_generic.py	/^def convertStringToInt(s):$/;"	f
+cpu	sysinfo.py	/^    def cpu(self):$/;"	m	class:SystemInfo
+createDefaultKnownNodes	defaultKnownNodes.py	/^def createDefaultKnownNodes(appdata):$/;"	f
+daemon	shared.py	/^daemon = False$/;"	v
+dbl_sha256	pyelliptic/arithmetic.py	/^def dbl_sha256(string):$/;"	f
+decode	pyelliptic/arithmetic.py	/^def decode(string,base):$/;"	f
+decode	qidenticon.py	/^    def decode(self, code):$/;"	m	class:IdenticonRendererBase
+decode	qidenticon.py	/^    def decode(self, code, twoColor):$/;"	m	class:DonRenderer
+decodeAddress	addresses.py	/^def decodeAddress(address):$/;"	f
+decodeBase58	addresses.py	/^def decodeBase58(string, alphabet=ALPHABET):$/;"	f
+decodeType2Message	class_objectProcessor.py	/^    def decodeType2Message(self, message):$/;"	m	class:objectProcessor
+decodeVarint	addresses.py	/^def decodeVarint(data):$/;"	f
+decodeWalletImportFormat	shared.py	/^def decodeWalletImportFormat(WIFstring):$/;"	f
+decrypt	highlevelcrypto.py	/^def decrypt(msg,hexPrivkey):$/;"	f
+decrypt	pyelliptic/ecc.py	/^    def decrypt(self, data, ciphername='aes-256-cbc'):$/;"	m	class:ECC
+decryptAndCheckPubkeyPayload	shared.py	/^def decryptAndCheckPubkeyPayload(data, address):$/;"	f
+decryptFast	highlevelcrypto.py	/^def decryptFast(msg,cryptor):$/;"	f
+dns	helper_bootstrap.py	/^def dns():$/;"	f
+doCleanShutdown	shared.py	/^def doCleanShutdown():$/;"	f
+doPOWForMyV2Pubkey	class_singleWorker.py	/^    def doPOWForMyV2Pubkey(self, hash):  # This function also broadcasts out the pubkey message once it is done with the POW$/;"	m	class:singleWorker
+doTimingAttackMitigation	class_receiveDataThread.py	/^doTimingAttackMitigation = True$/;"	v
+do_POST	api.py	/^    def do_POST(self):$/;"	m	class:MySimpleXMLRPCRequestHandler
+drawPatchQt	qidenticon.py	/^    def drawPatchQt(self, pos, turn, invert, type, image, size, foreColor,$/;"	m	class:IdenticonRendererBase
+eightBytesOfRandomDataUsedToDetectConnectionsToSelf	shared.py	/^eightBytesOfRandomDataUsedToDetectConnectionsToSelf = pack($/;"	v
+encode	pyelliptic/arithmetic.py	/^def encode(val,base,minlen=0):$/;"	f
+encodeAddress	addresses.py	/^def encodeAddress(version,stream,ripe):$/;"	f
+encodeBase58	addresses.py	/^def encodeBase58(num, alphabet=ALPHABET):$/;"	f
+encodeHost	shared.py	/^def encodeHost(host):$/;"	f
+encodeVarint	addresses.py	/^def encodeVarint(integer):$/;"	f
+encrypt	highlevelcrypto.py	/^def encrypt(msg,hexPubkey):$/;"	f
+encrypt	pyelliptic/ecc.py	/^    def encrypt(data, pubkey, ephemcurve=None, ciphername='aes-256-cbc'):$/;"	m	class:ECC
+ensureNamecoinOptions	namecoin.py	/^def ensureNamecoinOptions ():$/;"	f
+equals	pyelliptic/hash.py	/^def equals(a, b):$/;"	f
+error	namecoin.py	/^    error = None$/;"	v	class:RPCError
+execute	helper_sql.py	/^    def execute(self, sqlStatement, *args):$/;"	m	class:SqlBulkExecute
+final	pyelliptic/cipher.py	/^    def final(self):$/;"	m	class:Cipher
+fixPotentiallyInvalidUTF8Data	shared.py	/^def fixPotentiallyInvalidUTF8Data(text):$/;"	f
+fixSensitiveFilePermissions	shared.py	/^def fixSensitiveFilePermissions(filename, hasEnabledKeys):$/;"	f
+flushInventory	shared.py	/^def flushInventory():$/;"	f
+formatter	depends.py	/^formatter = logging.Formatter($/;"	v
+frozen	shared.py	/^frozen = getattr(sys,'frozen', None)$/;"	v
+gen_IV	pyelliptic/cipher.py	/^    def gen_IV(ciphername):$/;"	m	class:Cipher
+generateFullAckMessage	class_singleWorker.py	/^    def generateFullAckMessage(self, ackdata, toStreamNumber, TTL):$/;"	m	class:singleWorker
+getApiAddress	bitmessagemain.py	/^    def getApiAddress(self):$/;"	m	class:Main
+get_all_cipher	pyelliptic/cipher.py	/^    def get_all_cipher():$/;"	m	class:Cipher
+get_blocksize	pyelliptic/cipher.py	/^    def get_blocksize(ciphername):$/;"	m	class:Cipher
+get_blocksize	pyelliptic/openssl.py	/^    def get_blocksize(self):$/;"	m	class:CipherName
+get_cipher	pyelliptic/openssl.py	/^    def get_cipher(self, name):$/;"	m	class:_OpenSSL
+get_code_string	pyelliptic/arithmetic.py	/^def get_code_string(base):$/;"	f
+get_curve	pyelliptic/ecc.py	/^    def get_curve(self):$/;"	m	class:ECC
+get_curve	pyelliptic/openssl.py	/^    def get_curve(self, name):$/;"	m	class:_OpenSSL
+get_curve_by_id	pyelliptic/openssl.py	/^    def get_curve_by_id(self, id):$/;"	m	class:_OpenSSL
+get_curve_id	pyelliptic/ecc.py	/^    def get_curve_id(self):$/;"	m	class:ECC
+get_curves	pyelliptic/ecc.py	/^    def get_curves():$/;"	m	class:ECC
+get_ecdh_key	pyelliptic/ecc.py	/^    def get_ecdh_key(self, pubkey):$/;"	m	class:ECC
+get_name	pyelliptic/openssl.py	/^    def get_name(self):$/;"	m	class:CipherName
+get_pointer	pyelliptic/openssl.py	/^    def get_pointer(self):$/;"	m	class:CipherName
+get_privkey	pyelliptic/ecc.py	/^    def get_privkey(self):$/;"	m	class:ECC
+get_pubkey	pyelliptic/ecc.py	/^    def get_pubkey(self):$/;"	m	class:ECC
+getpeername	socks/__init__.py	/^    def getpeername(self):$/;"	m	class:socksocket
+getproxypeername	socks/__init__.py	/^    def getproxypeername(self):$/;"	m	class:socksocket
+getproxysockname	socks/__init__.py	/^    def getproxysockname(self):$/;"	m	class:socksocket
+handler	depends.py	/^handler = logging.StreamHandler(sys.stdout)$/;"	v
+handlers	api.py	/^    handlers = {}$/;"	v	class:MySimpleXMLRPCRequestHandler
+hash_160	pyelliptic/arithmetic.py	/^def hash_160(string):$/;"	f
+hdList	sysinfo.py	/^    def hdList(self):$/;"	m	class:SystemInfo
+hexToPubkey	highlevelcrypto.py	/^def hexToPubkey(pubkey):$/;"	f
+hex_to_point	pyelliptic/arithmetic.py	/^def hex_to_point(h): return (decode(h[2:66],16),decode(h[66:],16))$/;"	f
+hmac_sha256	pyelliptic/hash.py	/^def hmac_sha256(k, m):$/;"	f
+hmac_sha512	pyelliptic/hash.py	/^def hmac_sha512(k, m):$/;"	f
+holdHash	class_objectHashHolder.py	/^    def holdHash(self,hash):$/;"	m	class:objectHashHolder
+holdPeer	class_objectHashHolder.py	/^    def holdPeer(self,peerDetails):$/;"	m	class:objectHashHolder
+host	namecoin.py	/^    host = None$/;"	v	class:namecoinConnection
+hostname	sysinfo.py	/^    def hostname(self):$/;"	m	class:SystemInfo
+inet_ntop	bitmessagemain.py	/^        def inet_ntop(family, host):$/;"	f	function:_fixWinsock
+inet_pton	bitmessagemain.py	/^        def inet_pton(family, host):$/;"	f	function:_fixWinsock
+insert	helper_inbox.py	/^def insert(t):$/;"	f
+insert	helper_sent.py	/^def insert(t):$/;"	f
+inv	pyelliptic/arithmetic.py	/^def inv(a,n):$/;"	f
+inventory	shared.py	/^inventory = {} #of objects (like msg payloads and pubkey payloads) Does not include protocol headers (the first 24 bytes of each packet).$/;"	v
+inventoryLock	shared.py	/^inventoryLock = threading.Lock() #Guarantees that two receiveDataThreads don't receive and process the same message concurrently (probably sent by a malicious individual)$/;"	v
+inventorySets	shared.py	/^inventorySets = {} # key = streamNumer, value = a set which holds the inventory object hashes that we are aware of. This is used whenever we receive an inv message from a peer to check to see what items are new to us. We don't delete things out of it; instead, the singleCleaner thread clears and refills it every couple hours.$/;"	v
+isAddressInMyAddressBook	shared.py	/^def isAddressInMyAddressBook(address):$/;"	f
+isAddressInMyAddressBookSubscriptionsListOrWhitelist	shared.py	/^def isAddressInMyAddressBookSubscriptionsListOrWhitelist(address):$/;"	f
+isAddressInMySubscriptionsList	shared.py	/^def isAddressInMySubscriptionsList(address):$/;"	f
+isBitSetWithinBitfield	shared.py	/^def isBitSetWithinBitfield(fourByteString, n):$/;"	f
+isHostInPrivateIPRange	helper_generic.py	/^def isHostInPrivateIPRange(host):$/;"	f
+isInSqlInventory	shared.py	/^def isInSqlInventory(hash):$/;"	f
+isMessageAlreadyInInbox	helper_inbox.py	/^def isMessageAlreadyInInbox(sigHash):$/;"	f
+isOurOperatingSystemLimitedToHavingVeryFewHalfOpenConnections	helper_startup.py	/^def isOurOperatingSystemLimitedToHavingVeryFewHalfOpenConnections():$/;"	f
+isProofOfWorkSufficient	shared.py	/^def isProofOfWorkSufficient(data,$/;"	f
+knownNodes	helper_bootstrap.py	/^def knownNodes():$/;"	f
+knownNodes	shared.py	/^knownNodes = {}$/;"	v
+knownNodesLock	shared.py	/^knownNodesLock = threading.Lock()$/;"	v
+lastTimeWeResetBytesReceived	shared.py	/^lastTimeWeResetBytesReceived = 0 # used for the bandwidth rate limit$/;"	v
+lastTimeWeResetBytesSent	shared.py	/^lastTimeWeResetBytesSent = 0 # used for the bandwidth rate limit$/;"	v
+lengthOfTimeToHoldOnToAllPubkeys	shared.py	/^lengthOfTimeToHoldOnToAllPubkeys = 2419200  # Equals 4 weeks. You could make this longer if you want but making it shorter would not be advisable because there is a very small possibility that it could keep you from obtaining a needed pubkey for a period of time.$/;"	v
+loadConfig	helper_startup.py	/^def loadConfig():$/;"	f
+locale	sysinfo.py	/^    def locale(self):$/;"	m	class:SystemInfo
+log_level	debug.py	/^log_level = 'DEBUG'$/;"	v
+logger	debug.py	/^    logger = logging.getLogger('both')$/;"	v
+logger	depends.py	/^logger = logging.getLogger(__name__)$/;"	v
+login	sysinfo.py	/^    def login(self):$/;"	m	class:SystemInfo
+lookupAppdataFolder	shared.py	/^def lookupAppdataFolder():$/;"	f
+lookupNamecoinFolder	namecoin.py	/^def lookupNamecoinFolder ():$/;"	f
+mainprogram	bitmessagemain.py	/^    mainprogram = Main()$/;"	v	class:Main
+makeCryptor	highlevelcrypto.py	/^def makeCryptor(privkey):$/;"	f
+makePubCryptor	highlevelcrypto.py	/^def makePubCryptor(pubkey):$/;"	f
+malloc	pyelliptic/openssl.py	/^    def malloc(self, data, size):$/;"	m	class:_OpenSSL
+maximumAgeOfAnObjectThatIAmWillingToAccept	shared.py	/^maximumAgeOfAnObjectThatIAmWillingToAccept = 216000  # This is obsolete with the change to protocol v3 but the singleCleaner thread still hasn't been updated so we need this a little longer.$/;"	v
+maximumAgeOfNodesThatIAdvertiseToOthers	shared.py	/^maximumAgeOfNodesThatIAdvertiseToOthers = 10800  # Equals three hours$/;"	v
+maximumLengthOfTimeToBotherResendingMessages	shared.py	/^maximumLengthOfTimeToBotherResendingMessages = 0$/;"	v
+multiply	pyelliptic/arithmetic.py	/^def multiply(privkey,pubkey):$/;"	f
+myAddressesByHash	shared.py	/^myAddressesByHash = {} #The key in this dictionary is the RIPE hash which is encoded in an address and value is the address itself.$/;"	v
+myAddressesByTag	shared.py	/^myAddressesByTag = {} # The key in this dictionary is the tag generated from the address.$/;"	v
+myECCryptorObjects	shared.py	/^myECCryptorObjects = {}$/;"	v
+namecoinConnection	namecoin.py	/^class namecoinConnection (object):$/;"	c
+namecoinDefaultRpcPort	shared.py	/^namecoinDefaultRpcPort = "8336"$/;"	v
+needToWriteKnownNodesToDisk	shared.py	/^needToWriteKnownNodesToDisk = False # If True, the singleCleaner will write it to disk eventually.$/;"	v
+neededPubkeys	shared.py	/^neededPubkeys = {}$/;"	v
+netInterfaceList	sysinfo.py	/^    def netInterfaceList(self):$/;"	m	class:SystemInfo
+netPortList	sysinfo.py	/^    def netPortList(self):$/;"	m	class:SystemInfo
+networkDefaultPayloadLengthExtraBytes	shared.py	/^networkDefaultPayloadLengthExtraBytes = 1000 #To make sending short messages a little more difficult, this value is added to the payload length for use in calculating the proof of work target.$/;"	v
+networkDefaultProofOfWorkNonceTrialsPerByte	shared.py	/^networkDefaultProofOfWorkNonceTrialsPerByte = 1000 #The amount of work that should be performed (and demanded) per byte of the payload.$/;"	v
+nmctype	namecoin.py	/^    nmctype = None$/;"	v	class:namecoinConnection
+numberOfBroadcastsProcessed	shared.py	/^numberOfBroadcastsProcessed = 0$/;"	v
+numberOfBytesReceived	shared.py	/^numberOfBytesReceived = 0 # Used for the 'network status' page$/;"	v
+numberOfBytesReceivedLastSecond	shared.py	/^numberOfBytesReceivedLastSecond = 0 # used for the bandwidth rate limit$/;"	v
+numberOfBytesSent	shared.py	/^numberOfBytesSent = 0 # Used for the 'network status' page$/;"	v
+numberOfBytesSentLastSecond	shared.py	/^numberOfBytesSentLastSecond = 0 # used for the bandwidth rate limit$/;"	v
+numberOfInventoryLookupsPerformed	shared.py	/^numberOfInventoryLookupsPerformed = 0$/;"	v
+numberOfMessagesProcessed	shared.py	/^numberOfMessagesProcessed = 0$/;"	v
+numberOfObjectsThatWeHaveYetToGetPerPeer	shared.py	/^numberOfObjectsThatWeHaveYetToGetPerPeer = {}$/;"	v
+numberOfPubkeysProcessed	shared.py	/^numberOfPubkeysProcessed = 0$/;"	v
+objectHashHolder	class_objectHashHolder.py	/^class objectHashHolder(threading.Thread):$/;"	c
+objectProcessor	class_objectProcessor.py	/^class objectProcessor(threading.Thread):$/;"	c
+objectProcessorQueue	shared.py	/^objectProcessorQueue = Queue.Queue($/;"	v
+objectProcessorQueueSize	shared.py	/^objectProcessorQueueSize = 0 # in Bytes. We maintain this to prevent nodes from flooing us with objects which take up too much memory. If this gets too big we'll sleep before asking for further objects.$/;"	v
+objectProcessorQueueSizeLock	shared.py	/^objectProcessorQueueSizeLock = threading.Lock()$/;"	v
+openKeysFile	shared.py	/^def openKeysFile():$/;"	f
+outgoingSynSender	class_outgoingSynSender.py	/^class outgoingSynSender(threading.Thread):$/;"	c
+p	qidenticon.py	/^            p = map(lambda vec: (vec[0] \/ 4.0, vec[1] \/ 4.0), PATH_SET[idx])$/;"	v	class:DonRenderer
+password	namecoin.py	/^    password = None$/;"	v	class:namecoinConnection
+pbkdf2	pyelliptic/hash.py	/^def pbkdf2(password, salt=None, i=10000, keylen=64):$/;"	f
+pointMult	highlevelcrypto.py	/^def pointMult(secret):$/;"	f
+point_to_hex	pyelliptic/arithmetic.py	/^def point_to_hex(p): return '04'+encode(p[0],16,64)+encode(p[1],16,64)$/;"	f
+port	namecoin.py	/^    port = None$/;"	v	class:namecoinConnection
+possibleNewPubkey	class_objectProcessor.py	/^    def possibleNewPubkey(self, address):$/;"	m	class:objectProcessor
+printLock	shared.py	/^printLock = threading.Lock()$/;"	v
+privToPub	highlevelcrypto.py	/^def privToPub(privkey):$/;"	f
+privateEncryptionKey	addresses.py	/^    privateEncryptionKey = '4b0b73a54e19b059dc274ab69df095fe699f43b17397bca26fdf40f4d7400a3a'$/;"	v
+privateSigningKey	addresses.py	/^    privateSigningKey = '93d0b61371a54b53df143b954035d612f8efa8a3ed1cf842c2186bfd8f876665'$/;"	v
+privtopub	pyelliptic/arithmetic.py	/^def privtopub(privkey):$/;"	f
+processData	class_receiveDataThread.py	/^    def processData(self):$/;"	m	class:receiveDataThread
+processList	sysinfo.py	/^    def processList(self):$/;"	m	class:SystemInfo
+processbroadcast	class_objectProcessor.py	/^    def processbroadcast(self, data):$/;"	m	class:objectProcessor
+processgetpubkey	class_objectProcessor.py	/^    def processgetpubkey(self, data):$/;"	m	class:objectProcessor
+processmsg	class_objectProcessor.py	/^    def processmsg(self, data):$/;"	m	class:objectProcessor
+processpubkey	class_objectProcessor.py	/^    def processpubkey(self, data):$/;"	m	class:objectProcessor
+pubkey_to_address	pyelliptic/arithmetic.py	/^def pubkey_to_address(pubkey):$/;"	f
+publicEncryptionKey	addresses.py	/^    publicEncryptionKey = arithmetic.privtopub(privateEncryptionKey)$/;"	v
+publicEncryptionKeyBinary	addresses.py	/^    publicEncryptionKeyBinary = arithmetic.changebase(publicEncryptionKey,16,256,minlen=64)$/;"	v
+publicSigningKey	addresses.py	/^    publicSigningKey = arithmetic.privtopub(privateSigningKey)$/;"	v
+publicSigningKeyBinary	addresses.py	/^    publicSigningKeyBinary = arithmetic.changebase(publicSigningKey,16,256,minlen=64)$/;"	v
+query	helper_sql.py	/^    def query(self, sqlStatement, *args):$/;"	m	class:SqlBulkExecute
+query	namecoin.py	/^    def query (self, string):$/;"	m	class:namecoinConnection
+queryHTTP	namecoin.py	/^    def queryHTTP (self, data):$/;"	m	class:namecoinConnection
+queryServer	namecoin.py	/^    def queryServer (self, data):$/;"	m	class:namecoinConnection
+queryid	namecoin.py	/^    queryid = 1$/;"	v	class:namecoinConnection
+rand	pyelliptic/openssl.py	/^    def rand(self, size):$/;"	m	class:_OpenSSL
+raw_check_key	pyelliptic/ecc.py	/^    def raw_check_key(self, privkey, pubkey_x, pubkey_y, curve=None):$/;"	m	class:ECC
+raw_encrypt	pyelliptic/ecc.py	/^    def raw_encrypt(data, pubkey_x, pubkey_y, curve='sect283r1',$/;"	m	class:ECC
+raw_get_ecdh_key	pyelliptic/ecc.py	/^    def raw_get_ecdh_key(self, pubkey_x, pubkey_y):$/;"	m	class:ECC
+readDefaultKnownNodes	defaultKnownNodes.py	/^def readDefaultKnownNodes(appdata):$/;"	f
+recaddr	class_receiveDataThread.py	/^    def recaddr(self, data):$/;"	m	class:receiveDataThread
+receiveDataLock	shared.py	/^receiveDataLock = threading.Lock() # used for the bandwidth rate limit$/;"	v
+receiveDataThread	class_receiveDataThread.py	/^class receiveDataThread(threading.Thread):$/;"	c
+recerror	class_receiveDataThread.py	/^    def recerror(self, data):$/;"	m	class:receiveDataThread
+recgetdata	class_receiveDataThread.py	/^    def recgetdata(self, data):$/;"	m	class:receiveDataThread
+recinv	class_receiveDataThread.py	/^    def recinv(self, data):$/;"	m	class:receiveDataThread
+recobject	class_receiveDataThread.py	/^    def recobject(self, data):$/;"	m	class:receiveDataThread
+recverack	class_receiveDataThread.py	/^    def recverack(self):$/;"	m	class:receiveDataThread
+recversion	class_receiveDataThread.py	/^    def recversion(self, data):$/;"	m	class:receiveDataThread
+reloadBroadcastSendersForWhichImWatching	shared.py	/^def reloadBroadcastSendersForWhichImWatching():$/;"	f
+reloadMyAddressHashes	shared.py	/^def reloadMyAddressHashes():$/;"	f
+render	qidenticon.py	/^    def render(self, size, twoColor, opacity, penwidth):$/;"	m	class:IdenticonRendererBase
+render_identicon	qidenticon.py	/^def render_identicon(code, size, twoColor=False, opacity=255, penwidth=0, renderer=None):$/;"	f
+requestPubKey	class_singleWorker.py	/^    def requestPubKey(self, toAddress):$/;"	m	class:singleWorker
+resendMsg	class_singleCleaner.py	/^def resendMsg(ackdata):$/;"	f
+resendPubkeyRequest	class_singleCleaner.py	/^def resendPubkeyRequest(address):$/;"	f
+restartLoggingInUpdatedAppdataLocation	debug.py	/^def restartLoggingInUpdatedAppdataLocation():$/;"	f
+returnedAddress	addresses.py	/^    returnedAddress = encodeAddress(addressVersionNumber,streamNumber,ripe.digest())$/;"	v
+ripe	addresses.py	/^    ripe = hashlib.new('ripemd160')$/;"	v
+run	bitmessagemain.py	/^    def run(self):$/;"	m	class:singleAPI
+run	class_addressGenerator.py	/^    def run(self):$/;"	m	class:addressGenerator
+run	class_communicationThread.py	/^    def run(self):$/;"	m	class:communicationThread
+run	class_objectHashHolder.py	/^    def run(self):$/;"	m	class:objectHashHolder
+run	class_objectProcessor.py	/^    def run(self):$/;"	m	class:objectProcessor
+run	class_outgoingSynSender.py	/^    def run(self):$/;"	m	class:outgoingSynSender
+run	class_receiveDataThread.py	/^    def run(self):$/;"	m	class:receiveDataThread
+run	class_sendDataThread.py	/^    def run(self):$/;"	m	class:sendDataThread
+run	class_singleCleaner.py	/^    def run(self):$/;"	m	class:singleCleaner
+run	class_singleListener.py	/^    def run(self):$/;"	m	class:singleListener
+run	class_singleWorker.py	/^    def run(self):$/;"	m	class:singleWorker
+run	class_sqlThread.py	/^    def run(self):        $/;"	m	class:sqlThread
+run	proofofwork.py	/^def run(target, initialHash):$/;"	f
+safeConfigGetBoolean	shared.py	/^def safeConfigGetBoolean(section,field):$/;"	f
+selfInitiatedConnections	bitmessagemain.py	/^selfInitiatedConnections = {}$/;"	v
+sendBigInv	class_receiveDataThread.py	/^    def sendBigInv(self):$/;"	m	class:receiveDataThread
+sendBroadcast	class_singleWorker.py	/^    def sendBroadcast(self):$/;"	m	class:singleWorker
+sendBytes	class_sendDataThread.py	/^    def sendBytes(self, data):$/;"	m	class:sendDataThread
+sendDataLock	shared.py	/^sendDataLock = threading.Lock() # used for the bandwidth rate limit$/;"	v
+sendDataQueues	shared.py	/^sendDataQueues = [] #each sendData thread puts its queue in this list.$/;"	v
+sendDataThread	class_sendDataThread.py	/^class sendDataThread(threading.Thread):$/;"	c
+sendMessages	class_objectProcessor.py	/^    def sendMessages(self, address):$/;"	m	class:objectProcessor
+sendMsg	class_singleWorker.py	/^    def sendMsg(self):$/;"	m	class:singleWorker
+sendObject	class_receiveDataThread.py	/^    def sendObject(self, payload):$/;"	m	class:receiveDataThread
+sendOutOrStoreMyV3Pubkey	class_singleWorker.py	/^    def sendOutOrStoreMyV3Pubkey(self, hash): $/;"	m	class:singleWorker
+sendOutOrStoreMyV4Pubkey	class_singleWorker.py	/^    def sendOutOrStoreMyV4Pubkey(self, myAddress):$/;"	m	class:singleWorker
+sendVersionMessage	class_sendDataThread.py	/^    def sendVersionMessage(self):$/;"	m	class:sendDataThread
+sendaddr	class_receiveDataThread.py	/^    def sendaddr(self):$/;"	m	class:receiveDataThread
+sendgetdata	class_receiveDataThread.py	/^    def sendgetdata(self, hash):$/;"	m	class:receiveDataThread
+sendinvMessageToJustThisOnePeer	class_receiveDataThread.py	/^    def sendinvMessageToJustThisOnePeer(self, numberOfObjects, payload):$/;"	m	class:receiveDataThread
+sendpong	class_receiveDataThread.py	/^    def sendpong(self):$/;"	m	class:receiveDataThread
+sendverack	class_receiveDataThread.py	/^    def sendverack(self):$/;"	m	class:receiveDataThread
+sendversion	class_receiveDataThread.py	/^    def sendversion(self):$/;"	m	class:receiveDataThread
+setdefaultproxy	socks/__init__.py	/^def setdefaultproxy(proxytype=None, addr=None, port=None, rdns=True, username=None, password=None):$/;"	f
+setproxy	socks/__init__.py	/^    def setproxy(self, proxytype=None, addr=None, port=None, rdns=True, username=None, password=None):$/;"	m	class:socksocket
+setup	class_outgoingSynSender.py	/^    def setup(self, streamNumber, selfInitiatedConnections):$/;"	m	class:outgoingSynSender
+setup	class_receiveDataThread.py	/^    def setup($/;"	m	class:receiveDataThread
+setup	class_sendDataThread.py	/^    def setup($/;"	m	class:sendDataThread
+setup	class_singleListener.py	/^    def setup(self, selfInitiatedConnections):$/;"	m	class:singleListener
+sha	addresses.py	/^    sha = hashlib.new('sha512')$/;"	v
+shutdown	shared.py	/^shutdown = 0 #Set to 1 by the doCleanShutdown function. Used to tell the proof of work worker threads to exit.$/;"	v
+sign	highlevelcrypto.py	/^def sign(msg,hexPrivkey):$/;"	f
+sign	pyelliptic/ecc.py	/^    def sign(self, inputb, digest_alg=OpenSSL.EVP_ecdsa):$/;"	m	class:ECC
+signal_handler	helper_generic.py	/^def signal_handler(signal, frame):$/;"	f
+singleAPI	bitmessagemain.py	/^class singleAPI(threading.Thread):$/;"	c
+singleCleaner	class_singleCleaner.py	/^class singleCleaner(threading.Thread):$/;"	c
+singleListener	class_singleListener.py	/^class singleListener(threading.Thread):$/;"	c
+singleWorker	class_singleWorker.py	/^class singleWorker(threading.Thread):$/;"	c
+singleinstance	singleton.py	/^class singleinstance:$/;"	c
+socksocket	socks/__init__.py	/^class socksocket(socket.socket):$/;"	c
+softwareVersion	shared.py	/^softwareVersion = '0.4.4'$/;"	v
+sqlExecute	helper_sql.py	/^def sqlExecute(sqlStatement, *args):$/;"	f
+sqlLock	helper_sql.py	/^sqlLock = threading.Lock()$/;"	v
+sqlQuery	helper_sql.py	/^def sqlQuery(sqlStatement, *args):$/;"	f
+sqlReturnQueue	helper_sql.py	/^sqlReturnQueue = Queue.Queue()$/;"	v
+sqlStoredProcedure	helper_sql.py	/^def sqlStoredProcedure(procName):$/;"	f
+sqlSubmitQueue	helper_sql.py	/^sqlSubmitQueue = Queue.Queue() #SQLITE3 is so thread-unsafe that they won't even let you call it from different threads using your own locks. SQL objects can only be called from one thread.$/;"	v
+sqlThread	class_sqlThread.py	/^class sqlThread(threading.Thread):$/;"	c
+start	bitmessagemain.py	/^    def start(self):$/;"	m	class:Main
+statusIconColor	shared.py	/^statusIconColor = 'red'$/;"	v
+stop	bitmessagemain.py	/^    def stop(self):$/;"	m	class:Main
+storeConfigFilesInSameDirectoryAsProgramByDefault	helper_startup.py	/^storeConfigFilesInSameDirectoryAsProgramByDefault = False  # The user may de-select Portable Mode in the settings if they want the config files to stay in the application data folder.$/;"	v
+str_chan	api.py	/^str_chan = '[chan]'$/;"	v
+streamNumber	addresses.py	/^    streamNumber = 1$/;"	v
+streamsInWhichIAmParticipating	shared.py	/^streamsInWhichIAmParticipating = {}$/;"	v
+successfullyDecryptMessageTimings	shared.py	/^successfullyDecryptMessageTimings = [$/;"	v
+test	namecoin.py	/^    def test (self):$/;"	m	class:namecoinConnection
+test	sysinfo.py	/^    test = SystemInfo()$/;"	v	class:SystemInfo
+timezone	sysinfo.py	/^    def timezone(self):$/;"	m	class:SystemInfo
+totalMemory	sysinfo.py	/^    def totalMemory(self):$/;"	m	class:SystemInfo
+trash	helper_inbox.py	/^def trash(msgid):$/;"	f
+trustedPeer	shared.py	/^trustedPeer = None$/;"	v
+update	pyelliptic/cipher.py	/^    def update(self, input):$/;"	m	class:Cipher
+useVeryEasyProofOfWorkForTesting	shared.py	/^useVeryEasyProofOfWorkForTesting = False  # If you set this to True while on the normal network, you won't be able to send or sometimes receive messages.$/;"	v
+user	namecoin.py	/^    user = None$/;"	v	class:namecoinConnection
+varintDecodeError	addresses.py	/^class varintDecodeError(Exception):$/;"	c
+verbose	shared.py	/^verbose = 1$/;"	v
+verify	highlevelcrypto.py	/^def verify(msg,sig,hexPubkey):$/;"	f
+verify	pyelliptic/ecc.py	/^    def verify(self, sig, inputb, digest_alg=OpenSSL.EVP_ecdsa):$/;"	m	class:ECC
+workerQueue	shared.py	/^workerQueue = Queue.Queue()$/;"	v
+wrapmodule	socks/__init__.py	/^def wrapmodule(module):$/;"	f
+writeKeysFile	shared.py	/^def writeKeysFile():$/;"	f
