@@ -8,9 +8,6 @@ import sys
 bitmessage.start()
 print "Bitmessage started..."
 print "Your address is %s" % bitmessage.getCurrentAddress()
-#testaddr= 'BM-2cVjw5Bpe5RNmapY1Rcbt3Lo9ACUDdp23U'
-#testaddr= 'BM-2cU9gYD2dfo7EZ8PtSbyVbjk6HCU4wuV5f'
-#testaddr = 'BM-2cUz3pri3Q3PKgmSAjQLTmyCtwKFwXbLtc'
 testaddr = 'BM-2cU1gvauGukBHXPCARmHqfvut2YMFmu8Ce'
 while True:
     #Construct a message here
