@@ -339,13 +339,6 @@ class objectProcessor(threading.Thread):
         # addresses then we skip this check; the minimum network POW is
         # fine.
         if decodeAddress(toAddress)[1] >= 3 and not shared.safeConfigGetBoolean(toAddress, 'chan'):  # If the toAddress version number is 3 or higher and not one of my chan addresses:
-            if not shared.isAddressInMyAddressBookSubscriptionsListOrWhitelist(fromAddress):  # If I'm not friendly with this person:
-                requiredNonceTrialsPerByte = shared.config.getint(
-                    toAddress, 'noncetrialsperbyte')
-                requiredPayloadLengthExtraBytes = shared.config.getint(
-                    toAddress, 'payloadlengthextrabytes')
-                if not shared.isProofOfWorkSufficient(data, requiredNonceTrialsPerByte, requiredPayloadLengthExtraBytes):
-                    return
         blockMessage = False  # Gets set to True if the user shouldn't see the message according to black or white lists.
         if shared.config.get('bitmessagesettings', 'blackwhitelist') == 'black':  # If we are using a blacklist
             if fromAddress in shared.blacklist:
