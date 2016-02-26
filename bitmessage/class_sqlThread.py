@@ -28,12 +28,6 @@ class sqlThread(threading.Thread):
             self.cur.execute(
                 '''CREATE TABLE subscriptions (label text, address text, enabled bool)''' )
             self.cur.execute(
-                '''CREATE TABLE addressbook (label text, address text)''' )
-            self.cur.execute(
-                '''CREATE TABLE blacklist (label text, address text, enabled bool)''' )
-            self.cur.execute(
-                '''CREATE TABLE whitelist (label text, address text, enabled bool)''' )
-            self.cur.execute(
                 '''CREATE TABLE inventory (hash blob, objecttype int, streamnumber int, payload blob, expirestime integer, tag blob, UNIQUE(hash) ON CONFLICT REPLACE)''' )
             self.cur.execute(
                 '''INSERT INTO subscriptions VALUES('Bitmessage new releases/announcements','BM-GtovgYdgs7qXPkoYaRgrLFuFKz1SFpsw',1)''')

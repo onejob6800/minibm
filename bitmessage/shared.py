@@ -206,33 +206,12 @@ def lookupAppdataFolder():
         dataFolder = dataFolder + '/'
     return dataFolder
 
-def isAddressInMyAddressBook(address):
-    queryreturn = sqlQuery(
-        '''select address from addressbook where address=?''',
-        address)
-    return queryreturn != []
-
 #At this point we should really just have a isAddressInMy(book, address)...
 def isAddressInMySubscriptionsList(address):
     queryreturn = sqlQuery(
         '''select * from subscriptions where address=?''',
         str(address))
     return queryreturn != []
-
-def isAddressInMyAddressBookSubscriptionsListOrWhitelist(address):
-    if isAddressInMyAddressBook(address):
-        return True
-
-    queryreturn = sqlQuery('''SELECT address FROM whitelist where address=? and enabled = '1' ''', address)
-    if queryreturn <> []:
-        return True
-
-    queryreturn = sqlQuery(
-        '''select address from subscriptions where address=? and enabled = '1' ''',
-        address)
-    if queryreturn <> []:
-        return True
-    return False
 
 def safeConfigGetBoolean(section,field):
     try:
