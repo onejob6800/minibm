@@ -161,3 +161,26 @@ def sendMessage(toAddress, subject, message):
     shared.workerQueue.put(('sendmessage', toAddress))
 
     return ackdata
+
+# set blacklist
+def setBlacklist(address, operation):
+    if operation == "set":
+        if address not in shared.blacklist:
+            shared.blacklist.append(address)
+    elif operation == "unset":
+        if address in shared.blacklist:
+            shared.blacklist.remove(address)
+    else:
+        print "setBlacklist:Unsupported operation"
+
+# set whitelist
+def setWhitelist(address, operation):
+    if operation == "set":
+        if address not in shared.whitelist:
+            shared.whitelist.append(address)
+    elif operation == "unset":
+        if address in shared.whitelist:
+            shared.whitelist.remove(address)
+    else:
+        print "setWhitelist:Unsupported operation"
+
