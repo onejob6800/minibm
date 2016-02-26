@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/env pyhton2.7
 
 import bitmessage
 import time
