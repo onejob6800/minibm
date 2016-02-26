@@ -348,16 +348,10 @@ class objectProcessor(threading.Thread):
                     return
         blockMessage = False  # Gets set to True if the user shouldn't see the message according to black or white lists.
         if shared.config.get('bitmessagesettings', 'blackwhitelist') == 'black':  # If we are using a blacklist
-            queryreturn = sqlQuery(
-                '''SELECT label FROM blacklist where address=? and enabled='1' ''',
-                fromAddress)
-            if queryreturn != []:
+            if fromAddress in shared.blacklist:
                 blockMessage = True
         else:  # We're using a whitelist
-            queryreturn = sqlQuery(
-                '''SELECT label FROM whitelist where address=? and enabled='1' ''',
-                fromAddress)
-            if queryreturn == []:
+            if fromAddress not in shared.whitelist:
                 blockMessage = True
         
         toLabel = shared.config.get(toAddress, 'label')
