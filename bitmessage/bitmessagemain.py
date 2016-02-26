@@ -41,6 +41,7 @@ from helper_sql import sqlExecute
 # This is a list of current connections (the thread pointers at least)
 selfInitiatedConnections = {}
 
+#Initilise bitmessage library
 def start():
     # Create socket function that some versoin of python does not implement
     _fixWinsock()
@@ -99,9 +100,11 @@ def start():
     singleListenerThread.daemon = True  # close the main program even if there are threads left
     singleListenerThread.start()
 
+# Shutdown bitmessage library
 def stop():
     shared.doCleanShutdown()
 
+# Create a new address to send message and replace old
 def generateNewAddress():
     # Start the address generating thread
     addressGeneratorThread = addressGenerator()
@@ -124,6 +127,7 @@ def generateNewAddress():
     return newaddr
 
 
+# Get current bitmessage address which is used to send message
 def getCurrentAddress():
     if not len(shared.myAddressesByTag.keys()) == 0:
         return shared.myAddressesByTag[shared.myAddressesByTag.keys()[0]]
@@ -131,6 +135,7 @@ def getCurrentAddress():
         return generateNewAddress()
 
 
+# Get incomming message
 def getMessage():
     while len(shared.messages) == 0:
         time.sleep(1)
@@ -142,6 +147,7 @@ def getMessage():
     ret['time'] = t[4]
     return ret
 
+# Send message 
 def sendMessage(toAddress, subject, message):
     if len(shared.myAddressesByTag) == 0:
         generateNewAddress()
@@ -155,18 +161,3 @@ def sendMessage(toAddress, subject, message):
     shared.workerQueue.put(('sendmessage', toAddress))
 
     return ackdata
-
-def getMessageStatusByAckdata(ackdata):
-    sql = "SELECT status FROM sent WHERE ackdata=?"
-    ret = sqlQuery(sql, ackdata)
-    if (len(ret) == 0):
-        return 'not found'
-    else:
-        return ret[0][0]
-
-
-def clearMessage():
-    sql = "DELETE FROM inbox"
-    sqlExecute(sql)
-    sql = "DELETE FROM sent WHERE status='ackreceived'"
-    sqlExecute(sql)
