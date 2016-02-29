@@ -426,16 +426,10 @@ class singleWorker(threading.Thread):
                 # subscriptions list, or whitelist then we will allow them to
                 # do the network-minimum proof of work. Let us check to see if
                 # the receiver is in any of those lists.
-                if shared.isAddressInMyAddressBookSubscriptionsListOrWhitelist(toaddress):
-                    payload += encodeVarint(
-                        shared.networkDefaultProofOfWorkNonceTrialsPerByte)
-                    payload += encodeVarint(
-                        shared.networkDefaultPayloadLengthExtraBytes)
-                else:
-                    payload += encodeVarint(shared.config.getint(
-                        fromaddress, 'noncetrialsperbyte'))
-                    payload += encodeVarint(shared.config.getint(
-                        fromaddress, 'payloadlengthextrabytes'))
+                payload += encodeVarint(shared.config.getint(
+                    fromaddress, 'noncetrialsperbyte'))
+                payload += encodeVarint(shared.config.getint(
+                    fromaddress, 'payloadlengthextrabytes'))
 
             payload += toRipe  # This hash will be checked by the receiver of the message to verify that toRipe belongs to them. This prevents a Surreptitious Forwarding Attack.
             payload += '\x02'  # Type 2 is simple UTF-8 message encoding as specified on the Protocol Specification on the Bitmessage Wiki.
