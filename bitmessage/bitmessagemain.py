@@ -162,6 +162,15 @@ def sendMessage(toAddress, subject, message):
 
     return ackdata
 
+# Get sending message status
+def getStatusByAck(ackdata):
+    query = sqlQuery("SELECT status FROM sent WHERE ackdata=? LIMIT 0,1", ackdata)
+    if not len(query) == 0:
+        return query[0][0]
+    else:
+        return "not found"
+
+
 # set blacklist
 def setBlacklist(address, operation):
     if operation == "set":

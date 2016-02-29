@@ -13,4 +13,5 @@ print now
 message = "Time:" + now + "\n"
 ackdata = bitmessage.sendMessage(testaddr, "Come with some test", message)
 while True:
-   time.sleep(10 * 60)
+    print bitmessage.getStatusByAck(ackdata)
+    time.sleep(1)
